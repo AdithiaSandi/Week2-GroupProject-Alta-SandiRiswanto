@@ -1,53 +1,233 @@
+
+/* START ABOUT-TEAM */
 .about-team {
     /* background-color: red; */
     background-image: url(ornament_batik.png);
-    background-size:contain;
+    background-size: 280px;
     background-repeat: no-repeat;
     height: 30px;
     margin-right: 0px;
     margin-left: 0px;
     max-width: 100%;
-    height: 30em;
+    height: auto;
     max-height: auto;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-.about-team p {
-    font-size: 70px;
+.title p {
+    font-size: 50px;
     font-family: Muli;
     font-weight: bold;
     color: #19345E;
     margin: 0;
 }
 
-.about-team span {
+.title span {
     /* font-size: 300px; */
     color: red;
 }
 
+.title {
+    padding-bottom: 61px;
+}
+
 .about-team .title {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 0px;
 }
+
+
+.profile-card img {
+    max-width: 300px;
+    padding-bottom: 30px;
+    /* position: absolute; */
+}
+
+.profile-card .col-xl-4 {
+    /* border: red solid; */
+    padding-top: 30px;
+}
+
+.profile-card .img-border {
+    border: 10px solid hsla(24, 91%, 55%, 1);
+    width: 290px;
+    height: 345px;
+    margin: 10px -15px;
+    z-index: 9;
+    position: absolute;
+}
+
+.img-mid .img-border {
+    border-color: #19345E;
+}
+
+.profile-card p {
+    margin: 0;
+    max-width: 300px;
+    text-align: center;
+}
+
+.profile-card .img-left {
+    padding-left: 15%;
+}
+
+.profile-card .img-mid {
+    padding-left: 10%;
+    padding-top: 0;
+}
+
+.img-mid img {
+    filter: drop-shadow(0px 10px 4px gray);
+    z-index: -1;
+}
+.name {
+    color: #F47522;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.job-desc {
+    font-size: 15px;
+    color: #19345E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+}
+
+.link {
+    width: 100%;
+    text-align: right;
+    font-size: 16px;
+    font-family: Muli;
+    font-weight: bold;
+}
+
+.link a {
+    text-decoration: none;
+    color: #19345E;
+}
+
+.arrow {
+    color: #19345E;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* START BLOG */
+
+.about-blog {
+    /* border: blue solid; */
+    height: auto;
+    margin-bottom: 141px;
+    padding-right: 160px;
+    padding-left: 160px;
+}
+
+.about-blog .title {
+    font-size: 50px;
+    font-family: Muli;
+    font-weight: bold;
+    color: #19345E;
+    margin: 0;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.about-blog .row {
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.blog-card {
+    /* border: #F47522 solid; */
+}
+
+.blog-card .col-4 {
+    /* border: black solid; */
+    font-family: 'Poppins', sans-serif;
+    /* width: ; */
+}
+
+.post-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: hsla(217, 58%, 23%, 1);
+    margin-top: 31px;
+}
+
+.blog-card .blog-image{
+    background-image: url(img_article.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 206px;
+}
+
+.col-4 .row {
+    padding: 0;
+    margin-bottom: 15px;
+    color: hsla(0, 0%, 44%, 1);
+}
+
+.blog-link {
+    text-align: right;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* START FOOTER */
 
 footer {
     background-color: #19345E;
-    height: 10em;
+    height: auto;
     margin: 0px;
 }
 
 footer .container {
     /* border: black solid; */
     max-width: 100%;
-    max-height: 5em;
+    max-height: auto;
 }
 
-.footer-logo {
-    padding-left: 6em;
-    /* border: solid yellow; */
-    height: 5em;
-    /* padding-top: 2em; */
-    /* margin-top: 1em; */
+footer .row {
+    padding-bottom: 1em;
+    height: auto;
+}
+
+@media screen and (max-width: 575px) {
+    .footer-logo {
+        padding-left: 0em;
+        height: 5em;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .footer-logo {
+        padding-left: 6em;
+        /* border: solid yellow; */
+        height: 5em;
+        /* padding-top: 2em; */
+        /* margin-top: 1em; */
+    }
+}
+
+footer .col-12 {
+    padding-left: 0;
 }
 
 footer .col-xl-4 {
@@ -64,7 +244,18 @@ footer .col-xl-4 {
     padding-right: 10px;
 }
 
-.copyright {
-    /* border-left: 1px solid rgba(255, 255, 255, .1); */
-    /* box-shadow: inset 0px 0px 0px 0px #DBA632; */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .copyright p {
+        float: right;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .copyright {
+        /* border-left: 1px solid rgba(255, 255, 255, .1); */
+        /* box-shadow: inset 0px 0px 0px 0px #DBA632; */
+        padding-top: 1em;
+        padding-left: 2em;
+    }
 }
