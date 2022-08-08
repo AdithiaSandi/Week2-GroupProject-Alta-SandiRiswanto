@@ -65,6 +65,6 @@ footer .col-xl-4 {
 }
 
 .copyright {
-    border-left: 1px solid rgba(255, 255, 255, .1);
+    /* border-left: 1px solid rgba(255, 255, 255, .1); */
     /* box-shadow: inset 0px 0px 0px 0px #DBA632; */
 }
