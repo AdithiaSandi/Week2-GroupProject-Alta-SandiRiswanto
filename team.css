@@ -82,13 +82,21 @@ header {
 .content-title span {
     color: #F47522;
     font-weight: lighter;
+    margin-bottom: 0;
 }
 
 .content .col-md-8 {
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.4);
     margin-left: 18%;
 }
 
 .content-profile-job-title {
     font-size: 30px;
+}
+
+.row .profile-pic {
+    border: 10px solid rgba(244, 117, 34, 1);
+    height: 400px;
+    margin-left: 2%;
+    margin-top: 61px;
 }
