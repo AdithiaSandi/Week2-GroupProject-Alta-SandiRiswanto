@@ -1,0 +1,94 @@
+header {
+    padding: 0;
+    box-shadow: 0px 5px 10px whitesmoke;
+}
+
+.col-6 {
+    background-color: red;
+    /* border: black solid; */
+    border-collapse: collapse;
+    height: 5em;
+}
+
+.container-fluid {
+    /* border: blue solid; */
+    
+    max-width: 100%;
+    width: 100%;
+    /* padding-right: 0px;
+    padding-left: 0px; */
+    margin-top: 1%;
+    color: #19345E;
+    font-family: muli, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    /* margin-left: 0px !important; */
+}
+
+.header-logo {
+    padding-left: 20%;
+    height: 60px;
+}
+
+.row {
+    /* border: yellow solid; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    /* border: yellow solid; */
+    height: 66px;
+    padding-top: 1%;
+}
+
+.nav .col-md-3 {
+    padding-top: 2%;
+}
+
+.nav-bar .btn {
+    background-color: #F47522;
+    border: none;
+    width: 130px;
+    height: 38px;
+    border-radius: 20px;
+    /* padding-left: 0px; */
+}
+
+
+
+/* START CONTENT */
+
+
+.content {
+    background-image: url(ornament_batik.png);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    /* padding-right: 50%; */
+}
+
+.content-title {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 50px;
+    font-family: muli, sans-serif;
+    font-weight: bold;
+    color: #19345E;
+    margin: 0;
+    text-align: center;
+}
+
+
+.content-title span {
+    color: #F47522;
+    font-weight: lighter;
+}
+
+.content .col-md-8 {
+    background-color: red;
+    margin-left: 18%;
+}
+
+.content-profile-job-title {
+    font-size: 30px;
+}
