@@ -42,6 +42,14 @@ header .col-6 {
     padding-top: 1%;
 }
 
+.nav a {
+    text-decoration: none;
+    color: #19345E;
+    font-family: muli, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+
 .nav .col-md-3 {
     padding-top: 2%;
 }
@@ -49,6 +57,7 @@ header .col-6 {
 .nav-bar .btn {
     background-color: #F47522;
     border: none;
+    color: #FFFFFF;
     width: 130px;
     height: 38px;
     border-radius: 20px;
